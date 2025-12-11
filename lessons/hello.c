@@ -14,9 +14,21 @@ int main(void)
 }
 
 /* Running the code requires(clang)
-    1) clang -o hello hello.c
-    ie. name the resulting executable file hello. given the source file hello.c
-    2) ./hello
+    1) cd Desktop/CS50x/lessons	
+    2. clang -o <program_name> <program_name>.c	
+    3) ./<program_name>
+
+    Pushing changes to github
+    1) git pull 
+    2) git add <program_name>.c
+    3) git commit -m "Descriptive message"
+    4) git push --> Use Personal Access Token in Notion
+
+    Troubleshooting
+    ? fatal: not a git repository ? incorrect folder
+    ? Updates were rejected... fetch first ? git pull --rebase
+    ? E325: ATTENTION... swap file ? rm .git/.COMMIT_EDITMSG.swp
+    ? You are not currently on a branch ? git rebase --continue
     */
 
 
