@@ -1,4 +1,7 @@
-int main(int argc, string argv[])
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+// char *argv[] means An array of memory addresses that point to characters.
 //argc is argument count, argc is argument vector thus array of strings
 {
     if (argc == 2)
