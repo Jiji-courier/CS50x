@@ -1,6 +1,6 @@
 # CS50
 ## Definitions 
-Unary - base 1 ie. repeated use of one symbol
+Unary - base 1 ie. repeated use of one symbol.
 
 Dec - ten digits ie. 0 to 9
 
